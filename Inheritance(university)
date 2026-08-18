@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class university{ // base class
+    private:
+        int Id;
+        string name;
+    public:
+    university(int id, string Name){
+        this->Id = id;
+        this->name = Name;
+    }
+    void getter(void){
+        cout<<"Id "<<this->Id<<" "<<"Name "<<this->name<<endl;
+    }
+};
+class student : public university{ // derived class
+    private:
+        string school;
+        string year;
+    public:
+        student(string school, string year, int id, string name):university(id,name){
+            this->school = school;
+            this->year = year;
+        }
+        void getter_2(void){
+            cout<<"School "<<this->school<<" year "<<this->year<<endl;
+        }
+};
+int main(){
+    student s1("scds", "2027", 12, "Anything");
+    s1.getter_2();
+    return 0;
+}
