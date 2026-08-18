@@ -24,10 +24,12 @@ class student : public university{ // derived class
         }
         void getter_2(void){
             cout<<"School "<<this->school<<" year "<<this->year<<endl;
+            getter();
         }
 };
 int main(){
     student s1("scds", "2027", 12, "Anything");
     s1.getter_2();
+    // s1.getter();
     return 0;
 }
