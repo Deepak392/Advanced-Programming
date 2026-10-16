@@ -144,17 +144,6 @@ Exam resources, solved questions, and coding exercises.
 </tr>
 </table>
 
-<details>
-<summary><strong>Additional documentation and reference resources</strong></summary>
-
-<br/>
-
-- [Course documentation](docs/)
-- [Reference materials](resources/)
-- [Contribution guidelines](CONTRIBUTING.md)
-
-</details>
-
 ---
 
 <a id="learning-path"></a>
