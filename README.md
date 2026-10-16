@@ -1,149 +1,204 @@
-# Advanced Programming
-### Course Companion · C++ · Python · Algorithms
+ <div align="center">
 
-<p align="center">
-  <strong>A structured, practical reference for learning programming concepts, exploring implementations, and preparing for examinations.</strong>
-</p>
+# ADVANCED PROGRAMMING
 
-<p align="center">
-  <a href="#-explore-topics"><strong>Explore Topics</strong></a> &nbsp; · &nbsp;
-  <a href="#-quick-start"><strong>Quick Start</strong></a> &nbsp; · &nbsp;
-  <a href="#-exam-preparation"><strong>Exam Preparation</strong></a> &nbsp; · &nbsp;
-  <a href="#-contributing"><strong>Contribute</strong></a>
-</p>
+### Course Companion & Technical Reference
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Platform-GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Purpose-Learning%20%26%20Reference-64748b?style=flat-square" alt="Learning and reference" />
-</p>
+A structured learning resource for **C++ · Python · Data Structures · Algorithms**
+
+Explore implementations, strengthen programming fundamentals, and prepare for examinations through organised, practical examples.
+
+<br/>
+
+<a href="#curriculum">CURRICULUM</a> &nbsp; · &nbsp; <a href="#learning-path">LEARNING PATH</a> &nbsp; · &nbsp; <a href="#exam-centre">EXAM CENTRE</a> &nbsp; · &nbsp; <a href="#contribute">CONTRIBUTE</a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/C%2B%2B-Programming-2563EB?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/Python-Programming-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Resource-Open%20Learning-0F766E?style=flat-square" alt="Open learning resource" />
+
+</div>
 
 ---
 
-## Overview
+## Introduction
 
-Advanced Programming brings together concepts, worked examples, data structures, algorithms, and revision material in one organised repository.
+**Learn the concept. Understand the implementation. Apply the knowledge.**
 
-The objective is simple: make programming resources easier to **discover, understand, practise, and revisit**.
+This repository organises Advanced Programming material into a navigable technical reference for students, educators, and future learners.
 
-This repository is intended for:
+| For students | For educators |
+|:---|:---|
+| Understand concepts through code examples | Find focused examples for teaching |
+| Practise tracing and debugging programs | Develop exercises and demonstrations |
+| Revise concepts before examinations | Share verified supplementary resources |
+| Explore alternative implementations | Improve resources through collaboration |
 
-- **Students** — learn concepts, trace program execution, and practise problem-solving.
-- **Educators** — access examples and supplementary material for teaching and revision.
-- **Future learners** — use a searchable, topic-organised reference library.
+<a id="curriculum"></a>
 
-## Explore Topics
+## Curriculum
 
-Browse the repository by concept. Each section is intended to provide a focused entry point into the relevant source code and learning resources.
+Explore the collection by topic. Select a section to open its source files and supporting resources.
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 · Fundamentals</h3>
-      Foundational programs, strings, and matrices.
-      <br/><br/>
-      <a href="01-fundamentals/">Explore fundamentals →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 · Classes & Objects</h3>
-      Constructors, destructors, encapsulation, and complex numbers.
-      <br/><br/>
-      <a href="02-classes-and-objects/">Explore OOP basics →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03 · Inheritance</h3>
-      Base and derived classes, inheritance patterns, and type conversions.
-      <br/><br/>
-      <a href="03-inheritance/">Explore inheritance →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04 · Polymorphism</h3>
-      Examples illustrating polymorphism and related behaviour.
-      <br/><br/>
-      <a href="04-polymorphism/">Explore polymorphism →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>05 · Operator Overloading</h3>
-      Operator customisation and class-based examples.
-      <br/><br/>
-      <a href="05-operator-overloading/">Explore operators →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>06 · Multi-file Programs</h3>
-      Header files, declarations, and separate compilation.
-      <br/><br/>
-      <a href="06-headers-and-multifile-programs/">Explore multi-file C++ →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>07 · Data Structures</h3>
-      Stacks, queues, and linked-list implementations.
-      <br/><br/>
-      <a href="07-data-structures/">Explore data structures →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>08 · Algorithms</h3>
-      Graph traversal, dynamic programming, and problem-solving.
-      <br/><br/>
-      <a href="08-algorithms/">Explore algorithms →</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>09 · Multithreading</h3>
-      Threading examples and practice exercises.
-      <br/><br/>
-      <a href="09-multithreading/">Explore multithreading →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>10–11 · Revision & Practice</h3>
-      Exam resources and programming problems organised for practice.
-      <br/><br/>
-      <a href="10-exam-preparation/">Exam preparation</a> ·
-      <a href="11-practice-problems/">Practice problems</a>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+
+**01 — FUNDAMENTALS**
+
+Foundational programs, strings, and matrices.
+
+[Open module →](01-fundamentals/)
+
+</td>
+<td width="50%" valign="top">
+
+**02 — CLASSES & OBJECTS**
+
+Constructors, destructors, encapsulation, and complex numbers.
+
+[Open module →](02-classes-and-objects/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**03 — INHERITANCE**
+
+Base and derived classes, inheritance patterns, and type conversions.
+
+[Open module →](03-inheritance/)
+
+</td>
+<td width="50%" valign="top">
+
+**04 — POLYMORPHISM**
+
+Explore polymorphic behaviour and related implementations.
+
+[Open module →](04-polymorphism/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**05 — OPERATOR OVERLOADING**
+
+Custom operator behaviour and class-based examples.
+
+[Open module →](05-operator-overloading/)
+
+</td>
+<td width="50%" valign="top">
+
+**06 — MULTI-FILE PROGRAMS**
+
+Header files, declarations, and separate compilation.
+
+[Open module →](06-headers-and-multifile-programs/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**07 — DATA STRUCTURES**
+
+Stacks, queues, and linked-list implementations.
+
+[Open module →](07-data-structures/)
+
+</td>
+<td width="50%" valign="top">
+
+**08 — ALGORITHMS**
+
+Graph traversal, dynamic programming, and problem-solving.
+
+[Open module →](08-algorithms/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**09 — MULTITHREADING**
+
+Threading examples and practice exercises.
+
+[Open module →](09-multithreading/)
+
+</td>
+<td width="50%" valign="top">
+
+**10–11 — PRACTICE & REVISION**
+
+Exam resources, solved questions, and coding exercises.
+
+[Exam centre →](10-exam-preparation/) · [Practice →](11-practice-problems/)
+
+</td>
+</tr>
 </table>
 
 <details>
-  <summary><strong>Documentation and reference materials</strong></summary>
+<summary><strong>Additional documentation and reference resources</strong></summary>
 
-  <br/>
+<br/>
 
-  - [Course documentation](docs/)
-  - [Reference materials](resources/)
-  - [Contribution guidelines](CONTRIBUTING.md)
+- [Course documentation](docs/)
+- [Reference materials](resources/)
+- [Contribution guidelines](CONTRIBUTING.md)
+
 </details>
 
-## Learning Workflow
+---
 
-Use the repository as a practical learning cycle rather than just a place to copy code.
+<a id="learning-path"></a>
 
-1. **Understand** — read the concept and its purpose.
-2. **Inspect** — trace the example line by line.
-3. **Execute** — compile or run the program.
-4. **Experiment** — modify inputs, test edge cases, and observe behaviour.
-5. **Practise** — attempt a related problem independently.
-6. **Revise** — use the notes and exercises to reinforce understanding.
+## Learning Path
+
+Follow this workflow when studying a new topic.
+
+<table>
+<tr>
+<td align="center" width="16%"><strong>01</strong><br/>READ</td>
+<td align="center" width="16%"><strong>02</strong><br/>TRACE</td>
+<td align="center" width="16%"><strong>03</strong><br/>RUN</td>
+<td align="center" width="16%"><strong>04</strong><br/>MODIFY</td>
+<td align="center" width="16%"><strong>05</strong><br/>PRACTISE</td>
+<td align="center" width="20%"><strong>06</strong><br/>REVISE</td>
+</tr>
+</table>
+
+1. Read the concept overview and understand the underlying idea.
+2. Trace the program and predict its output.
+3. Compile or execute the example.
+4. Modify the code and test edge cases.
+5. Solve a related exercise independently.
+6. Revisit the concept using revision notes.
+
+**Learning principle:** Understanding why a program works is more valuable than memorising its output.
+
+---
 
 ## Quick Start
 
-### 1. Clone the repository
+Clone the repository and explore the examples locally.
+
+**1. Clone**
 
 ```bash
 git clone https://github.com/Deepak392/Advanced-Programming.git
 cd Advanced-Programming
 ```
 
-### 2. Compile a C++ program
+**2. Compile a C++ example**
 
-Requires a compatible C++ compiler such as GCC.
+Requires a compatible compiler such as GCC.
 
 ```bash
 g++ -std=c++17 path/to/program.cpp -o program
@@ -155,116 +210,152 @@ Run on Linux or macOS:
 ./program
 ```
 
-Run on Windows PowerShell:
+On Windows PowerShell:
 
 ```powershell
 .\program.exe
 ```
 
-### 3. Run a Python program
+**3. Run a Python example**
 
 ```bash
 python path/to/program.py
 ```
 
-> **Note:** Some examples may require additional source files, input files, libraries, or a specific working directory. Refer to the relevant topic documentation.
-
-## Exam Preparation
-
-Use the [exam-preparation section](10-exam-preparation/) as a central place for revision resources.
-
 <details>
-  <summary><strong>Concept revision</strong></summary>
+<summary><strong>Build and execution notes</strong></summary>
 
-  Review definitions, syntax, object-oriented programming concepts, and important distinctions between related concepts.
+- Multi-file C++ programs may require compiling multiple `.cpp` files together.
+- Programs may expect specific input or files in the working directory.
+- Python examples may require additional packages.
+- Check the relevant topic documentation for program-specific instructions.
 
 </details>
-
-<details>
-  <summary><strong>Output prediction</strong></summary>
-
-  Predict the output before running the program. Then compile it, compare your prediction, and explain the result.
-
-</details>
-
-<details>
-  <summary><strong>Programming practice</strong></summary>
-
-  Attempt problems independently, test boundary cases, and compare alternative implementations where appropriate.
-
-</details>
-
-<details>
-  <summary><strong>Viva and conceptual questions</strong></summary>
-
-  Practise explaining why a program works, what its limitations are, and how changes to the code affect its behaviour.
-
-</details>
-
-*Resources are added and verified progressively. Check individual folders for currently available material.*
-
-## For Educators
-
-The repository can serve as a supplementary resource for:
-
-- Demonstrating programming concepts through focused examples.
-- Finding code for classroom discussions and practical sessions.
-- Developing exercises and output-tracing questions.
-- Sharing verified explanations and references.
-- Improving course material collaboratively.
-
-Teaching notes, slides, and assessment materials should only be shared where redistribution is permitted.
-
-## Contributing
-
-Help make the repository more accurate, accessible, and useful.
-
-Contributions may include:
-
-- New examples and alternative implementations.
-- Bug fixes and corrections.
-- Improved explanations and code readability.
-- Test cases, sample outputs, and edge cases.
-- Practice questions and revision resources.
-- Links to reliable documentation.
-
-<details>
-  <summary><strong>Contribution checklist</strong></summary>
-
-  <br/>
-
-  - [ ] Place the contribution in the appropriate topic folder.
-  - [ ] Use descriptive filenames and consistent formatting.
-  - [ ] Verify the program before submitting.
-  - [ ] Explain the concept and any important assumptions.
-  - [ ] Include sample input/output where useful.
-  - [ ] Check that links and dependencies are correct.
-  - [ ] Follow the repository's contribution guidelines.
-
-</details>
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the recommended workflow.
-
-## Further Reading
-
-| Resource | Purpose |
-|---|---|
-| [cppreference](https://en.cppreference.com/w/) | C++ language and standard library reference |
-| [GCC documentation](https://gcc.gnu.org/onlinedocs/) | Compiler options and usage |
-| [Python documentation](https://docs.python.org/3/) | Official Python language reference |
-
-## Repository Principles
-
-- **Clarity:** code should be readable and examples should have a clear purpose.
-- **Correctness:** solutions should be tested and explanations should be verified.
-- **Discoverability:** related material should be grouped by topic.
-- **Accessibility:** learning resources should be easy to navigate.
-- **Collaboration:** improvements should benefit future learners as well as current students.
 
 ---
 
-<p align="center">
-  <strong>Learn with purpose. Practise with intent. Build understanding.</strong>
-  <br/><br/>
-  <sub>Advanced Programming · Community Learning Resource</sub>
-</p>
+<a id="exam-centre"></a>
+
+## Exam Centre
+
+A dedicated space for revision, conceptual understanding, and programming practice.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**CONCEPT REVISION**
+
+Review definitions, syntax, comparisons, and important edge cases.
+
+[Browse revision resources →](10-exam-preparation/)
+
+</td>
+<td width="50%" valign="top">
+
+**OUTPUT PREDICTION**
+
+Predict execution behaviour before running the code.
+
+[Explore exercises →](10-exam-preparation/output-prediction/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**SOLVED QUESTIONS**
+
+Study worked problems and understand the reasoning behind solutions.
+
+[Browse midsem resources →](10-exam-preparation/midsems/)
+
+</td>
+<td width="50%" valign="top">
+
+**INDEPENDENT PRACTICE**
+
+Build confidence through problems of increasing difficulty.
+
+[Explore practice problems →](11-practice-problems/)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Recommended examination strategy</strong></summary>
+
+<br/>
+
+- Revise the underlying concept before attempting a solution.
+- Trace object creation, inheritance, and function calls carefully.
+- Predict program output before compiling.
+- Practise writing complete, readable solutions.
+- Test boundary cases and explain the time or space requirements where relevant.
+
+</details>
+
+*The availability of individual resources depends on the material currently published in each section.*
+
+---
+
+## For Educators
+
+This repository can be used as a supplementary teaching and reference resource.
+
+- Demonstrate concepts using focused, runnable examples.
+- Locate code for classroom explanations and laboratory sessions.
+- Develop practice exercises and output-prediction questions.
+- Contribute corrections, documentation, and verified examples.
+
+Course materials should only be redistributed when the necessary permissions are available.
+
+---
+
+<a id="contribute"></a>
+
+## Contribute
+
+Help improve the quality and usefulness of this learning resource.
+
+<details>
+<summary><strong>Contribution checklist</strong></summary>
+
+<br/>
+
+- [ ] Place the contribution in the appropriate topic folder.
+- [ ] Use descriptive filenames and consistent formatting.
+- [ ] Verify the program and its expected output.
+- [ ] Document assumptions, dependencies, and edge cases.
+- [ ] Add sample input/output where appropriate.
+- [ ] Check links and dependencies before submitting.
+- [ ] Follow the repository's contribution guidelines.
+
+</details>
+
+Suggested contributions include new implementations, clearer explanations, debugging examples, practice questions, test cases, and reliable reference links.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow.
+
+---
+
+## Technical References
+
+| Reference | Use |
+|:---|:---|
+| [cppreference](https://en.cppreference.com/w/) | C++ language and standard library |
+| [GCC documentation](https://gcc.gnu.org/onlinedocs/) | Compiler options and usage |
+| [Python documentation](https://docs.python.org/3/) | Python language reference |
+
+---
+
+<div align="center">
+
+---
+
+**ADVANCED PROGRAMMING · COURSE COMPANION**
+
+*Structured knowledge. Practical learning. Continuous improvement.*
+
+</div>
