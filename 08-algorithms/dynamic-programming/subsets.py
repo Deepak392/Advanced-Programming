@@ -1,5 +1,6 @@
 A={1,2,3}
 P_A = {frozenset()}
+
 for i in A:
     new_set = set()
     for subset in P_A:
